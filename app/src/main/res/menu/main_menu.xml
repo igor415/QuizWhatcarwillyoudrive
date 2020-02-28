@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:icon="@drawable/ic_more_vert_black_24dp"
+        app:showAsAction="ifRoom"
+        android:title="@string/more">
+        <menu>
+            <item android:id="@+id/programer"
+                android:title="@string/developer"
+                android:icon="@drawable/ic_erte"
+                />
+
+            <item android:id="@+id/podijeli"
+                android:title="@string/share_app"
+                android:icon="@drawable/ic_share_black_24dp"
+                />
+
+            <item android:id="@+id/notifications"
+                android:title="@string/notifications"
+                app:showAsAction="never">
+
+                <menu>
+                    <item android:id="@+id/enable_notification"
+                        android:title="@string/enable_notifications"
+                        android:icon="@drawable/ic_check_black_24dp"
+                        app:showAsAction="never"/>
+                    <item android:id="@+id/disable_notification"
+                        android:icon="@drawable/ic_check_white"
+                        android:title="@string/disable_notifications"
+                        app:showAsAction="never"/>
+                </menu>
+            </item>
+
+        </menu>
+    </item>
+
+</menu>

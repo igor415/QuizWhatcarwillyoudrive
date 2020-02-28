@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">Quiz - What car will you drive?</string>
+    <string name="quote1">\"The cars we drive, say a lot about us.\"</string>
+    <string name="inicijalni_postotak_res">0 %</string>
+    <string name="car_predictor_res">Car predictor - 2019</string>
+    <string name="inicijalni_text_res">inicijalni text</string>
+    <string name="prikaz_slike_res">prikaz_slike</string>
+    <string name="postotak_res" formatted="true">%1$s %%</string>
+    <string name="what_kind_of_driver_are_you_res">What kind of driver are you?</string>
+    <string name="inicijalni_button_res">Inicijalni button</string>
+    <string name="finish_quiz_res">Finish quiz</string>
+    <string name="kindResult1">Driving is just a way to get from point A to point B, as far as you"'re" concerned. Might as well enjoy the ride while you"'"re at it.</string>
+    <string name="kindResult2">You buckle your seat belt before you even get out your keys, and you always do the speed limit. You won"'"t let these flying metal death traps get the best of you, no way.</string>
+    <string name="kindResult3">You know the little handle above the window? People grip that extra tight when they"'"re riding with you. You"'"ve never met a fast lane you didn"'"t like.</string>
+    <string name="kindResult4">Most drivers fall into the categories of "too aggressive" or "not aggressive enough". You, on the other hand, have struck the perfect balance. You"'"re the type of driver we wish everyone could be.</string>
+    <string name="DieselPetrolResult2">You should definitely buy petrol engine car!</string>
+    <string name="DieselPetrolResult1">You should definitely buy diesel engine car!</string>
+    <string name="dieselPetrolTitle">Diesel or petrol car?</string>
+    <string name="try_again_res">Try again</string>
+    <string name="improve_score_res">Try again to improve your score!</string>
+    <string name="pretty_good_res">Pretty good, but you can do better!</string>
+    <string name="improve_better_res">Improve score</string>
+    <string name="final_score">Your final score is: %1$s points.</string>
+    <string name="excellent_res">Excellent!</string>
+    <string name="prikaz_skora">Score: %1$s</string>
+    <string name="prikazBrojaca">%1$s/15</string>
+    <string name="easyTitleCar">Car logos - easy</string>
+    <string name="difficultTitleCar">Car logos - difficult</string>
+    <string name="which_car_s_logo_is_this_title">Which car\'s logo is this?</string>
+    <string name="score_0_res">Score: 0</string>
+    <string name="_0_15_res">0/15</string>
+    <string name="joker_res">joker</string>
+    <string name="no_joker_res">no joker</string>
+    <string name="this_is_the_car_you_should_buy_res">This is the car you should buy!</string>
+    <string name="what_car_will_you_drive_title">What car will you drive?</string>
+    <string name="what_kind_of_driver_are_you_title">What kind of driver are you?</string>
+    <string name="what_car_should_you_buy_title">What car should you buy?</string>
+    <string name="what_car_are_you_title">What car are you?</string>
+    <string name="SharedKindResult1">If you could drive and put your feet up on the dashboard, you would. For you, driving isn\'t how fast you get to a destination, it\'s about the journey and vibing with the open road.</string>
+    <string name="SharedKindResult2">Everybody seems to drive faster than you, and this makes you really angry. Especially when you have difficulties to see the road ahead. Sometimes you stay in the fast lane just to annoy others. Parking is a mystery.</string>
+    <string name="SharedKindResult3">You\'re young, but you know how to get things done. You\'re a driving expert and your love of speed never puts others in danger. One might say you\'re the perfect driver. Most likely, you avoided several crashes at the last moment. Because you\'re too good, that\'s why.</string>
+    <string name="SharedKindResult4">You drive too fast for your own good. Bouts of fury are not uncommon, and others think you\'re a real jerk. But at the same time you love cars and know how to have a lot of fun while driving. Your passengers, not so much.</string>
+    <string name="SharedKindResult5">You drive like a maniac always knowing what to do in extreme situations. You often disregard rules and regulations, but this is how you think you\'ll get from A to B in the fastest and safest way. You\'ll die still thinking this.</string>
+    <string name="this_is_you_res">This is you:</string>
+    <string name="calculating_res">Calculating result..</string>
+    <string name="success_res">You have succesfully completed the challenge!</string>
+    <string name="more">more</string>
+    <string name="developer">Developer</string>
+    <string name="share_app">Share app</string>
+    <string name="notifications">Notifications</string>
+    <string name="enable_notifications">Enable Notifications</string>
+    <string name="disable_notifications">Disable Notifications</string>
+    <string-array name="listaNaslova">
+        <item>What car will you drive?</item>
+        <item>What kind of driver are you?</item>
+        <item>What car should you buy?</item>
+        <item>What car are you?</item>
+    </string-array>
+
+
+</resources>

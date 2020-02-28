@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "258651653404",
+    "firebase_url": "https://quizwhatcarwillyoudrive.firebaseio.com",
+    "project_id": "quizwhatcarwillyoudrive",
+    "storage_bucket": "quizwhatcarwillyoudrive.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:258651653404:android:cf83569a278737c23626d9",
+        "android_client_info": {
+          "package_name": "com.varivoda.igor.quiz_whatcarwillyoudrive"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "258651653404-8p10peks48dmu7m4c6u1n8qjglrp6cr5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.varivoda.igor.quiz_whatcarwillyoudrive",
+            "certificate_hash": "14885e2051104377291c79caa5eaa88558597d71"
+          }
+        },
+        {
+          "client_id": "258651653404-c4ir30nhg52ut4692ds801s3rao242oj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDHoMKaXYDCjXaoqsDlrx3CPwBpV3yVBSg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "258651653404-c4ir30nhg52ut4692ds801s3rao242oj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

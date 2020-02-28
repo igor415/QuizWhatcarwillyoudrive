@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2c3e50</color>
+    <color name="colorPrimaryDark">#1b2a3a</color>
+    <color name="colorAccent">#D81B60</color>
+   <color name="nova" >#2c3e50</color>
+    <color name="zelena">#1be514</color>
+</resources>
