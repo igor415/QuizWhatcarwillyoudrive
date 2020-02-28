@@ -1,4 +1,4 @@
-package com.varivoda.igor.quiz_whatcarwillyoudrive;
+package com.varivoda.igor.quiz_whatcarwillyoudrive.FirestoreDataObjects;
 
 public class DieselPetrolOpcija {
     private int id;

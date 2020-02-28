@@ -13,6 +13,7 @@ import com.firebase.ui.firestore.FirestoreRecyclerAdapter;
 import com.firebase.ui.firestore.FirestoreRecyclerOptions;
 import com.google.firebase.firestore.DocumentSnapshot;
 import com.squareup.picasso.Picasso;
+import com.varivoda.igor.quiz_whatcarwillyoudrive.FirestoreDataObjects.Opcija;
 
 public class HomeAdapter extends FirestoreRecyclerAdapter<Opcija, HomeAdapter.HomeViewHolder> {
     private onItemClickListener listener;

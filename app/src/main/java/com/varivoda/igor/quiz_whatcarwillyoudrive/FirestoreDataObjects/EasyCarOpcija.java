@@ -1,6 +1,6 @@
-package com.varivoda.igor.quiz_whatcarwillyoudrive;
+package com.varivoda.igor.quiz_whatcarwillyoudrive.FirestoreDataObjects;
 
-public class DifficultCarOpcija {
+public class EasyCarOpcija {
     private int id;
     private String odgovor1;
     private String odgovor2;
@@ -8,9 +8,10 @@ public class DifficultCarOpcija {
     private String odgovor4;
     private String tocanOdgovor;
     private String url;
-    public DifficultCarOpcija(){}
 
-    public DifficultCarOpcija(int id, String odgovor1, String odgovor2, String odgovor3, String odgovor4, String tocanOdgovor, String url) {
+    public EasyCarOpcija(){}
+
+    public EasyCarOpcija(int id, String odgovor1, String odgovor2, String odgovor3, String odgovor4, String tocanOdgovor, String url) {
         this.id = id;
         this.odgovor1 = odgovor1;
         this.odgovor2 = odgovor2;

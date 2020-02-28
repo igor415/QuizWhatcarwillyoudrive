@@ -1,30 +1,27 @@
-package com.varivoda.igor.quiz_whatcarwillyoudrive;
+package com.varivoda.igor.quiz_whatcarwillyoudrive.FirestoreDataObjects;
 
-public class SharedKindOpcija {
+public class DifficultCarOpcija {
     private int id;
-    private String pitanje;
     private String odgovor1;
     private String odgovor2;
     private String odgovor3;
     private String odgovor4;
+    private String tocanOdgovor;
+    private String url;
+    public DifficultCarOpcija(){}
 
-    public SharedKindOpcija(){}
-
-    public SharedKindOpcija(int id, String pitanje, String odgovor1, String odgovor2, String odgovor3, String odgovor4) {
+    public DifficultCarOpcija(int id, String odgovor1, String odgovor2, String odgovor3, String odgovor4, String tocanOdgovor, String url) {
         this.id = id;
-        this.pitanje = pitanje;
         this.odgovor1 = odgovor1;
         this.odgovor2 = odgovor2;
         this.odgovor3 = odgovor3;
         this.odgovor4 = odgovor4;
+        this.tocanOdgovor = tocanOdgovor;
+        this.url = url;
     }
 
     public int getId() {
         return id;
-    }
-
-    public String getPitanje() {
-        return pitanje;
     }
 
     public String getOdgovor1() {
@@ -41,5 +38,13 @@ public class SharedKindOpcija {
 
     public String getOdgovor4() {
         return odgovor4;
+    }
+
+    public String getTocanOdgovor() {
+        return tocanOdgovor;
+    }
+
+    public String getUrl() {
+        return url;
     }
 }
