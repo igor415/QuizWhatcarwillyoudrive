@@ -276,6 +276,7 @@ public class SharedActivity extends AppCompatActivity {
         dialogView.setBackgroundResource(R.drawable.which_drive_dialog_shape);
         builder.setView(dialogView);
 
+
         gumbDialog = dialogView.findViewById(R.id.gumbDialog);
         gumbDialog.setText(getString(R.string.finish_quiz_res));
         naslovrez = dialogView.findViewById(R.id.naslovrez);
@@ -292,6 +293,8 @@ public class SharedActivity extends AppCompatActivity {
             dialog.cancel();
             finish();
         });
+        dialog.setCancelable(false);
+        dialog.setCanceledOnTouchOutside(false);
 
         //
         if (q > 1) {
@@ -362,6 +365,8 @@ public class SharedActivity extends AppCompatActivity {
                 finish();
 
         });
+        dialog.setCancelable(false);
+        dialog.setCanceledOnTouchOutside(false);
 
         //
         if (q > 1) {
@@ -422,6 +427,8 @@ public class SharedActivity extends AppCompatActivity {
             dialog.cancel();
             finish();
         });
+        dialog.setCancelable(false);
+        dialog.setCanceledOnTouchOutside(false);
         if (q > 1) {
             naslovrez.setText(getString(R.string.SharedKindResult1));
             if (dialog.getWindow() != null) {
@@ -499,6 +506,8 @@ public class SharedActivity extends AppCompatActivity {
             dialog.cancel();
             finish();
         });
+        dialog.setCancelable(false);
+        dialog.setCanceledOnTouchOutside(false);
 
         //
         if (q > 1) {

@@ -106,6 +106,8 @@ public class DieselPetrol extends AppCompatActivity {
                 dialog.cancel();
                 finish();
             });
+            dialog.setCancelable(false);
+            dialog.setCanceledOnTouchOutside(false);
             if (dialog.getWindow() != null) {
                 dialog.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
             }

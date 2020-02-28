@@ -191,6 +191,8 @@ public class CarActivity extends AppCompatActivity {
                 dialog.cancel();
                 finish();
             });
+            dialog.setCancelable(false);
+            dialog.setCanceledOnTouchOutside(false);
 
             dialog.show();
         }
@@ -220,6 +222,8 @@ public class CarActivity extends AppCompatActivity {
                 dialog.cancel();
                 finish();
             });
+            dialog.setCancelable(false);
+            dialog.setCanceledOnTouchOutside(false);
 
             dialog.show();
         }
@@ -250,6 +254,8 @@ public class CarActivity extends AppCompatActivity {
                 dialog.cancel();
                 finish();
             });
+            dialog.setCancelable(false);
+            dialog.setCanceledOnTouchOutside(false);
 
             dialog.show();
 

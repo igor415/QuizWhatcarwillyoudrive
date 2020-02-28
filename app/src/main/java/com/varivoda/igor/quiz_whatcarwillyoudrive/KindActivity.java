@@ -137,6 +137,9 @@ public class KindActivity extends AppCompatActivity {
             dialog.cancel();
             finish();
         });
+        dialog.setCancelable(false);
+        dialog.setCanceledOnTouchOutside(false);
+
         if (q > 1) {
             naslovrez.setText(getString(R.string.kindResult1));
             if (dialog.getWindow() != null) {
