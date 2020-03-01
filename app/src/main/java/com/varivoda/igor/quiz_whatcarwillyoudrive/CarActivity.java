@@ -2,12 +2,15 @@ package com.varivoda.igor.quiz_whatcarwillyoudrive;
 
 import android.content.Context;
 import android.content.Intent;
+import android.media.MediaPlayer;
 import android.net.Uri;
 import android.os.Vibrator;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import androidx.appcompat.widget.Toolbar;
+
+import android.provider.MediaStore;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuInflater;
@@ -53,6 +56,7 @@ public class CarActivity extends AppCompatActivity {
     public static String[] correctDifficultCar = new String[15];
     private String answer;
     private int version;
+    private MediaPlayer correct,falsee;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -63,7 +67,8 @@ public class CarActivity extends AppCompatActivity {
         if(getSupportActionBar()!=null){
             getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         }
-
+        correct = MediaPlayer.create(CarActivity.this,R.raw.truee);
+        falsee = MediaPlayer.create(CarActivity.this,R.raw.falsee);
         Intent i = getIntent();
         version = i.getIntExtra(HomeActivity.KLJUC,0);
         if(version==0){
@@ -76,7 +81,7 @@ public class CarActivity extends AppCompatActivity {
             if (answer.equals(answer1.getText().toString())) {
                 skor++;
                 score.setText(getString(R.string.prikaz_skora,String.valueOf(skor)));
-
+                correct.start();
                 if (brojac == 15) {
                     gameOver();
                 } else {
@@ -85,6 +90,7 @@ public class CarActivity extends AppCompatActivity {
             } else {
                 skor--;
                 score.setText(getString(R.string.prikaz_skora,String.valueOf(skor)));
+                falsee.start();
                 if (brojac == 15) {
                     gameOver();
                 } else {
@@ -96,6 +102,7 @@ public class CarActivity extends AppCompatActivity {
             if (answer.equals(answer2.getText().toString())) {
                 skor++;
                 score.setText(getString(R.string.prikaz_skora,String.valueOf(skor)));
+                correct.start();
                 if (brojac == 15) {
                     gameOver();
                 } else {
@@ -104,6 +111,7 @@ public class CarActivity extends AppCompatActivity {
             } else {
                 skor--;
                 score.setText(getString(R.string.prikaz_skora,String.valueOf(skor)));
+                falsee.start();
                 if (brojac == 15) {
                     gameOver();
                 } else {
@@ -115,6 +123,7 @@ public class CarActivity extends AppCompatActivity {
             if (answer.equals(answer3.getText().toString())) {
                 skor++;
                 score.setText(getString(R.string.prikaz_skora,String.valueOf(skor)));
+                correct.start();
                 if (brojac == 15 ){
                     gameOver();
                 }
@@ -124,6 +133,7 @@ public class CarActivity extends AppCompatActivity {
             } else {
                 skor--;
                 score.setText(getString(R.string.prikaz_skora,String.valueOf(skor)));
+                falsee.start();
                 if (brojac == 15) {
                     gameOver();
                 } else {
@@ -135,6 +145,7 @@ public class CarActivity extends AppCompatActivity {
             if (answer.equals(answer4.getText().toString())) {
                 skor++;
                 score.setText(getString(R.string.prikaz_skora,String.valueOf(skor)));
+                correct.start();
                 if (brojac == 15) {
                     gameOver();
                 } else {
@@ -143,6 +154,7 @@ public class CarActivity extends AppCompatActivity {
             } else {
                 skor--;
                 score.setText(getString(R.string.prikaz_skora,String.valueOf(skor)));
+                falsee.start();
                 if (brojac == 15) {
                     gameOver();
                 } else {
